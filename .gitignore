@@ -1,5 +1,5 @@
 push.sh
 build.sh
-gitinfo.sh
-gitclean.sh
 buildStuffed.sh
+XeroISO/
+build/

@@ -10,32 +10,21 @@ base-devel
 
 ### FS Tools
 
-rsync
 sdparm
-ntfs-3g
-gptfdisk
-xfsprogs
-tpm2-tss
 udftools
 syslinux
 fatresize
 nfs-utils
-e2fsprogs
-dosfstools
 exfatprogs
 tpm2-tools
 fsarchiver
-btrfs-progs
 zram-generator
-squashfs-tools
 
 ### HDD Tools
 
 gpart
 dmraid
-parted
 hdparm
-usbmuxd
 usbutils
 testdisk
 ddrescue
@@ -46,10 +35,8 @@ usb_modeswitch
 ### Terminal
 
 fd
-tk
 nano
 tmux
-brltty
 msedit
 nvme-cli
 terminus-font
@@ -60,46 +47,27 @@ kitty-terminfo
 
 pv
 mc
-gpm
 nbd
 lvm2
-bolt
 bind
-less
 lynx
 sudo
 tldr
-nmap
 ocrad
-mdadm
 sakura
 hyperv
-mtools
 lsscsi
-screen
-man-db
-kseexpr
 rtaudio
 tcpdump
 ethtool
 xdotool
-pcsclite
 espeakup
-libfido2
-xdg-utils
 man-pages
-diffutils
 mmc-utils
 sg3_utils
-dmidecode
-efibootmgr
 sequoia-sq
 edk2-shell
-libmypaint
-python-pyqt6
-sof-firmware
 libusb-compat
-smartmontools
 wireguard-tools
 
 ### Kernel/Firmware
@@ -118,12 +86,10 @@ update-grub
 ### archiso-extra
 
 eza
-ntp
 cava
 most
 wget
 dialog
-dnsutils
 logrotate
 
 #######################################################
@@ -138,23 +104,16 @@ chaotic-mirrorlist
 ### XeroLinux Tools
 
 preload
+xen-app
 live-launcher
 xero-toolkit
 extra-scripts
-calamaresx-app
-calamaresx-cfg
 desktop-config
 xero-gpu-tools
+xen-cfg-xerolinux
 
 ### Build Stuff
 
-xmlto
-boost
-ckbcomp
-kpmcore
-yaml-cpp
-boost-libs
-gtk-update-icon-cache
 xdg-terminal-exec-git
 
 ### mkinitcpio stuff
@@ -165,13 +124,11 @@ mkinitcpio-utils
 mkinitcpio-archiso
 mkinitcpio-openswap
 mkinitcpio-nfs-utils
-#linux-firmware-nvidia
 
 ### Tools
 
 falkon
 hblock
-cryptsetup
 brightnessctl
 switcheroo-control
 power-profiles-daemon
@@ -180,8 +137,6 @@ power-profiles-daemon
 
 dex
 bash
-make
-libxinerama
 bash-completion
 
 ### Xorg Applications
@@ -190,11 +145,9 @@ bash-completion
 xorg-apps
 xorg-xinit
 xorg-server
-xorg-xwayland
 
 ### Essentials
 
-kirigami
 polkit-gnome
 
 #######################################################
@@ -213,8 +166,6 @@ mesa
 amd-drv
 intel-drv
 autorandr
-mesa-utils
-lib32-mesa
 xf86-video-qxl
 xf86-video-fbdev
 lib32-mesa-utils
@@ -229,21 +180,15 @@ printer-support
 ### Input
 
 orca
-onboard
-libinput
 xf86-input-void
 xf86-input-evdev
-iio-sensor-proxy
 game-devices-udev
 xf86-input-vmmouse
-xf86-input-libinput
 xf86-input-synaptics
 xf86-input-elographics
 
 ### G-Streamer
 
-gstreamer
-gst-libav
 gst-plugin-va
 gst-plugin-gif
 gst-plugin-gtk
@@ -252,8 +197,6 @@ gst-plugin-qsv
 gst-plugin-ffv1
 gst-plugin-gtk4
 gst-plugin-msdk
-gst-plugin-qml6
-gst-plugins-bad
 gst-plugin-dav1d
 gst-plugin-qmlgl
 gst-plugin-rav1e
@@ -261,21 +204,13 @@ gst-plugin-regex
 gst-plugin-rsflv
 gst-plugin-rspng
 gst-plugin-rsrtp
-gst-plugins-base
-gst-plugins-good
 gst-plugins-ugly
 gst-plugin-claxon
-gst-plugin-opencv
 gst-plugin-rsrtsp
-gst-plugin-isobmff
 gst-plugins-espeak
 gst-plugin-hlssink3
 gst-plugin-livesync
-gst-plugin-pipewire
-gst-plugin-rswebrtc
-gst-plugin-textwrap
 gst-plugin-gopbuffer
-gst-plugin-libcamera
 gst-plugin-rsaudiofx
 gst-plugin-rsvideofx
 gst-plugin-textahead
@@ -284,7 +219,6 @@ gst-plugin-threadshare
 gst-plugin-togglerecord
 gst-plugin-fallbackswitch
 gst-plugin-rsaudioparsers
-gst-plugin-textaccumulate
 gst-plugin-uriplaylistbin
 gst-plugin-rsclosedcaption
 
@@ -302,40 +236,26 @@ lib32-pipewire-jack
 
 ### Bluetooth
 
-bluez
-bluez-libs
 bluez-utils
 bluez-tools
 bluez-hid2hci
 
 ### Networking
 
-iw
 iwd
-ppp
 lftp
 ldns
-avahi
-samba
-netctl
 dhcpcd
 openssh
 openvpn
 dnsmasq
-dhclient
 openldap
-nss-mdns
-smbclient
-net-tools
 openresolv
 reflector
 openconnect
 traceroute
 networkmanager
 wireless-regdb
-wireless_tools
-wpa_supplicant
-modemmanager-qt
 openpgp-card-tools
 systemd-resolvconf
 linux-firmware-intel
@@ -352,20 +272,14 @@ virtualbox-guest-utils
 
 ### Applications
 
-jq
-vim
 figlet
-ostree
 lolcat
 numlockx
 localsend
-lm_sensors
 appstream-glib
-lib32-lm_sensors
 
 ### Bat to replace cat
 
-bat
 bat-extras
 
 ### Fonts
@@ -378,12 +292,6 @@ ttf-ubuntu-font-family
 awesome-terminal-fonts
 ttf-jetbrains-mono-nerd
 adobe-source-sans-fonts
-
-### Kate Plugins
-
-bash-language-server
-typescript-language-server
-vscode-json-languageserver
 
 ### Theme Tools
 
@@ -402,7 +310,6 @@ tela-circle-icon-theme-purple
 
 ### Multimedia
 
-ffmpeg
 ffmpegthumbs
 ffnvcodec-headers
 
@@ -411,8 +318,6 @@ ffnvcodec-headers
 paru
 flatpak
 topgrade
-appstream-qt
-pacman-contrib
 pacman-bintrans
 
 #######################################################
@@ -421,16 +326,13 @@ pacman-bintrans
 
 ### File management
 
-gvfs
 mtpfs
 udiskie
-udisks2
 libldm
 gvfs-afc
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-gvfs-goa
 gvfs-wsdd
 gvfs-dnssd
 gvfs-gphoto2
@@ -440,18 +342,12 @@ gvfs-onedrive
 
 libgsf
 tumbler
-freetype2
 libopenraw
-poppler-qt6
-poppler-glib
 ffmpegthumbnailer
 
 ### Python & Libs
 
 python-pip
-python-cffi
-python-numpy
-python-docopt
 python-pyaudio
 python-pyparted
 python-pygments
@@ -463,7 +359,6 @@ python-websockets
 
 ### Essentials
 
-xdg-user-dirs
 plasma-login-manager
 
 ### Others
@@ -472,16 +367,12 @@ xmlstarlet
 
 ## Utilities
 
-yt-dlp
-wavpack
 unarchiver
 rate-mirrors
 
 ## Complements
 
 parallel
-xsettingsd
-polkit-qt6
 systemdgenie
 gnome-keyring
 
@@ -511,54 +402,30 @@ kde-system
 ### https://archlinux.org/groups/x86_64/plasma/
 
 kwin
+kup
 krdp
-milou
-breeze
 oxygen
-aurorae
 drkonqi
 kwrited
-kgamma
 kscreen
-#kwin-x11
-kmenuedit
 bluedevil
-kpipewire
 plasma-nm
 plasma-pa
 plasma-sdk
-libkscreen
 breeze-gtk
-powerdevil
 kinfocenter
 flatpak-kcm
-kdecoration
 ksshaskpass
 kwallet-pam
-libksysguard
 plasma-vault
-ksystemstats
-kde-cli-tools
 oxygen-sounds
-kscreenlocker
-kglobalacceld
-systemsettings
 kde-gtk-config
-layer-shell-qt
 plasma-desktop
 plasma-keyboard
-polkit-kde-agent
-plasma-workspace
 kdeplasma-addons
-ocean-sound-theme
-qqc2-breeze-style
-kactivitymanagerd
-#plasma-x11-session
-plasma-integration
 plasma-thunderbolt
 plasma5-integration
 plasma-systemmonitor
-xdg-desktop-portal-kde
 plasma-browser-integration
 
 ### KDE Network Selection
@@ -566,15 +433,10 @@ plasma-browser-integration
 
 krdc
 krfb
-smb4k
 kdeconnect
-kio-admin
-kio-extras
 kio-gdrive
-konversation
 kio-zeroconf
 kdenetwork-filesharing
-signon-kwallet-extension
 
 ### KDE Graphics Selection
 ### https://archlinux.org/groups/x86_64/kde-graphics/
@@ -585,7 +447,6 @@ svgpart
 skanlite
 gwenview
 spectacle
-colord-kde
 kcolorchooser
 kimagemapeditor
 kdegraphics-thumbnailers
@@ -598,8 +459,6 @@ kate
 kgpg
 kfind
 sweeper
-konsole
-kdialog
 yakuake
 skanpage
 filelight
@@ -611,15 +470,12 @@ keditbookmarks
 kdebugsettings
 kwalletmanager
 dolphin-plugins
-partitionmanager
 
 ### KDE Multimedia Selection
 ### https://archlinux.org/groups/x86_64/kde-multimedia/
 
-k3b
 kamoso
 audiotube
-plasmatube
 audiocd-kio
 
 ### KDE Applications Selection
@@ -631,8 +487,6 @@ akregator
 
 waypipe
 egl-wayland
-qt6-wayland
-lib32-wayland
 wayland-protocols
 kwayland-integration
 plasma-wayland-protocols
@@ -641,73 +495,50 @@ plasma-wayland-protocols
 ###                XeroLinux Extras                 ###
 #######################################################
 
-vi
+ex-vi-compat
 duf
-gcc
-git
-npm
 yad
 zip
 xdo
 gum
 inxi
-lzop
 nmon
 tree
-vala
 btop
 glfw
 htop
 lshw
 cblas
 expac
-fuse3
 lhasa
-meson
 unace
 unrar
 unzip
-p7zip
+7zip
 iftop
 nvtop
-rhash
-sshfs
 vnstat
-nodejs
-cronie
 hwinfo
-assimp
-netpbm
 wmctrl
 grsync
-libmtp
 polkit
 sysprof
-semver
 zenity
 gparted
 hddtemp
-mlocate
-jsoncpp
+plocate
 fuseiso
-gettext
 node-gyp
 intltool
 graphviz
 pkgstats
-pciutils
 inetutils
 downgrade
 s3fs-fuse
 playerctl
 asciinema
-oniguruma
 ventoy-bin
-cifs-utils
-lsb-release
-dbus-python
 dconf-editor
 laptop-detect
-perl-xml-parser
 gnome-disk-utility
 appmenu-gtk-module
