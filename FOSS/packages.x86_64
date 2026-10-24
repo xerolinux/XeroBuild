@@ -105,6 +105,7 @@ chaotic-mirrorlist
 
 preload
 xen-app
+xpm-gui
 live-launcher
 xero-toolkit
 extra-scripts
@@ -285,6 +286,7 @@ bat-extras
 ### Fonts
 
 ttf-fira-code
+noto-fonts-cjk
 otf-libertinus
 tex-gyre-fonts
 ttf-hack-nerd
